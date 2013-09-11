@@ -13,6 +13,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'audited', gem.version
   gem.add_dependency 'activerecord', '~> 4.0'
+  gem.add_dependency 'rails-observers'
 
   gem.files         = `git ls-files lib`.split($\).grep(/(active_?record|generators)/)
   gem.files         << 'LICENSE'
